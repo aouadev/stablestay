@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
 import ClientDashboard from "../pages/ClientDashboard.vue";
+import HostDashboard from "../pages/HostDashboard.vue";
 
 const routes = [
   {
     path: "/",
     name: "ClientDashboard",
     component: ClientDashboard,
+  },
+  {
+    path: "/host-dashboard",
+    name: "HostDashboard",
+    component: HostDashboard,
   },
 ];
 
